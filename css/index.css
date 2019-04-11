@@ -168,11 +168,12 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-h1 {
-  display: inline;
+body .header nav a {
+  padding: 3rem;
+  font-size: 1.6rem;
 }
-.nav {
-  padding: 1 rem;
+body .header nav h1 {
+  display: inline;
 }
 .footer {
   width: 100%;
@@ -186,12 +187,17 @@ h1 {
   padding: 20px;
 }
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  height: 6rem;
+  margin: 2rem auto;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.header div {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .home .content-section {
   margin: 30px 0;
