@@ -1,3 +1,36 @@
+@media (max-width:500px) {
+  .header {
+    max-width: 800px;
+    width: 96%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+  }
+}
+@media (max-width:500px) {
+  .header .headerTOP {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+}
+@media (max-width:500px) {
+  .home .cta {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width:500px) {
+  .home .content-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.home .content-section .text-content {
+  width: 100%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -171,6 +204,22 @@ img {
 body .header nav a {
   padding: 2rem;
   font-size: 1.6rem;
+}
+body .header nav a:link {
+  text-decoration: none;
+  color: #000000;
+}
+body .header nav a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+body .header nav a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+body .header nav a:active {
+  text-decoration: underline;
+  color: #000000;
 }
 body .header nav h1 {
   display: inline;
