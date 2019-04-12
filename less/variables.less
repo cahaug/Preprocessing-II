@@ -21,41 +21,44 @@
 
 @signmeup:~'85%, 2rem';
 
-.header {
-    @media @mobile {
+
+@media @mobile {
+    .header {
         .containerize(800px, 96%);
         padding:0 2rem;
     }
+    .header .headerTOP {
+        justify-content: center;
+        text-align:center;
+        flex-direction: column;
+        padding-bottom:2rem;
+    }
+    .home {
+        width:100%;
+        padding:2%; 
+    }
     
-    .headerTOP {
-        @media @mobile {
-            justify-content: center;
-            text-align:center;
-            flex-direction: column;
+    .home .cta {
+        .containerize(450px, 100%);
+
+        h1 {
+            padding;0;
         }
     }
-}
-
-.home {
-    @media @mobile {
-
-    }
-
-    .cta {
-        @media @mobile {
-            .containerize(450px, 100%);
-      
-        }
-    }
-
     .content-section {
-        @media @mobile {
-            display:flex;
-            flex-direction: column;
-        }
-
+        display:flex;
+        flex-direction: column;
         .text-content {
             width:100%;
+            max-width: 450px;
         }
+        .img-content {
+            width:100%;
+            max-width:450px;
+        }
+    }
+    .content-destination {
+        width:100%;
+        max-width:450px;
     }
 }

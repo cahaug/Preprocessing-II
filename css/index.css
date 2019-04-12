@@ -12,6 +12,13 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    padding-bottom: 2rem;
+  }
+}
+@media (max-width:500px) {
+  .home {
+    width: 100%;
+    padding: 2%;
   }
 }
 @media (max-width:500px) {
@@ -28,8 +35,17 @@
     flex-direction: column;
   }
 }
-.home .content-section .text-content {
-  width: 100%;
+@media (max-width:500px) {
+  .home .content-section .text-content {
+    width: 100%;
+    max-width: 450px;
+  }
+}
+@media (max-width:500px) {
+  .home .content-section .img-content {
+    width: 100%;
+    max-width: 450px;
+  }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
