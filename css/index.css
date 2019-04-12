@@ -6,45 +6,51 @@
     flex-wrap: wrap;
     padding: 0 2rem;
   }
-}
-@media (max-width:500px) {
   .header .headerTOP {
     justify-content: center;
     text-align: center;
     flex-direction: column;
     padding-bottom: 2rem;
   }
-}
-@media (max-width:500px) {
   .home {
     width: 100%;
     padding: 2%;
   }
-}
-@media (max-width:500px) {
   .home .cta {
     max-width: 450px;
     width: 100%;
     margin: 0 auto;
     flex-wrap: wrap;
   }
-}
-@media (max-width:500px) {
+  .home .cta h1 {
+    padding: 0;
+  }
   .home .content-section {
     display: flex;
     flex-direction: column;
   }
-}
-@media (max-width:500px) {
   .home .content-section .text-content {
     width: 100%;
     max-width: 450px;
   }
-}
-@media (max-width:500px) {
   .home .content-section .img-content {
     width: 100%;
     max-width: 450px;
+  }
+  .content-destination {
+    width: 100%;
+    max-width: 450px;
+  }
+  .content-pick {
+    flex-direction: column;
+  }
+  .home section .destination {
+    width: 425px;
+  }
+}
+@media (max-width:500px) {
+  .home .content-pick .destination {
+    width: 125px;
   }
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 

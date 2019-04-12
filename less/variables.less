@@ -42,10 +42,10 @@
         .containerize(450px, 100%);
 
         h1 {
-            padding;0;
+            padding:0;
         }
     }
-    .content-section {
+    .home .content-section {
         display:flex;
         flex-direction: column;
         .text-content {
@@ -60,5 +60,21 @@
     .content-destination {
         width:100%;
         max-width:450px;
+    }
+
+    .content-pick {
+        flex-direction:column;
+        
+    }
+    .home section .destination {
+        width:425px;
+    
+    }
+}
+
+@media @mobile {
+    .home .content-pick .destination {
+        width:125px;
+    
     }
 }
